@@ -2,10 +2,10 @@ personal:
   name: "Vaibhav Solanki"
   title: "Senior Software Engineer"
   company: "Postman"
-  location: "San Francisco, CA"
-  email: "vaibhav.solanki@postman.com"
-  github: "https://github.com/vaibhavsolanki"
-  linkedin: "https://linkedin.com/in/vaibhavsolanki"
+  location: "Bangalore, India"
+  email: "vbhvsolanki7500@gmail.com"
+  github: "https://github.com/VAIBHAV7500"
+  linkedin: "https://linkedin.com/in/vaibhav.solanki"
   #twitter: "https://twitter.com/vaibhavsolanki"
   instagram: "https://www.instagram.com/vbhvsolanki"
   avatar: "/avatar.jpg"
@@ -147,28 +147,28 @@ projects:
   - name: "DevTools Hub"
     description: "A comprehensive collection of developer tools and utilities built with React and Node.js. Features include API testing, code formatting, and database management tools."
     image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/show_page.png"
-    github: "https://github.com/vaibhavsolanki/devtools-hub"
+    github: "https://github.com/VAIBHAV7500/devtools-hub"
     technologies: ["React", "Node.js", "TypeScript", "PostgreSQL"]
     featured: true
 
   - name: "CodeCollab"
     description: "Real-time collaborative code editor with syntax highlighting, version control integration, and team collaboration features."
     image: "/projects/codecollab.png"
-    github: "https://github.com/vaibhavsolanki/codecollab"
+    github: "https://github.com/VAIBHAV7500/codecollab"
     technologies: ["React", "Socket.io", "Monaco Editor", "Express"]
     featured: true
 
   - name: "API Analytics Dashboard"
     description: "Comprehensive analytics platform for API monitoring, performance tracking, and developer insights."
     image: "/projects/api-analytics.png"
-    github: "https://github.com/vaibhavsolanki/api-analytics"
+    github: "https://github.com/VAIBHAV7500/api-analytics"
     technologies: ["Next.js", "D3.js", "PostgreSQL", "Redis"]
     featured: false
 
   - name: "TaskFlow"
     description: "Project management tool with kanban boards, time tracking, and team collaboration features."
     image: "/projects/taskflow.png"
-    github: "https://github.com/vaibhavsolanki/taskflow"
+    github: "https://github.com/VAIBHAV7500/taskflow"
     technologies: ["React", "Node.js", "MongoDB", "Socket.io"]
     featured: false
 
@@ -206,9 +206,9 @@ blogs:
     #image: "/blogs/future-dev-tools.png"
 
 contact:
-  email: "vaibhav.solanki@postman.com"
-  linkedin: "https://linkedin.com/in/vaibhavsolanki"
-  github: "https://github.com/vaibhavsolanki"
+  email: "vbhvsolanki7500@gmail.com"
+  linkedin: "https://linkedin.com/in/vaibhav.solanki"
+  github: "https://github.com/VAIBHAV7500"
   #twitter: "https://twitter.com/vaibhavsolanki"
   resume: "/resume.pdf" 
   instagram: "https://www.instagram.com/vbhvsolanki"
