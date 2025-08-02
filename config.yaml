@@ -8,7 +8,7 @@ personal:
   linkedin: "https://linkedin.com/in/vaibhav.solanki"
   #twitter: "https://twitter.com/vaibhavsolanki"
   instagram: "https://www.instagram.com/vbhvsolanki"
-  avatar: "/avatar.jpg"
+  avatar: "/avatar.png"
   images:
     - src: "/personal/photo1.png"
       caption: "Working on exciting projects at Postman"
@@ -19,7 +19,7 @@ personal:
 
 about:
   summary: "I'm a Senior Software Engineer with 5+ years of experience building scalable web applications and developer tools. Currently working at Postman, I've previously contributed to platforms like HackerRank and BrowserStack."
-  description: "Hello there 👋\n\nHappy to see you here!\nI am Vaibhav, a Software Engineer with a passion for building innovative products. My journey in technology is fueled by a love for problem-solving and creating impactful solutions. Beyond coding, I am a big fan of anime and manga, which inspire my creativity. I also love traveling and exploring new places, as each adventure enriches my perspective and fuels my passion for discovery.\n Have a nice day!\n\nBest Vaibhav"
+  description: "Hellooo 👋\n\nHappy to see you here!\nI am Vaibhav, a Software Engineer with a passion for building innovative products. My journey in technology is fueled by a love for problem-solving and creating impactful solutions. Beyond coding, I am a big fan of anime and manga, which inspire my creativity. I also love traveling and exploring new places, as each adventure enriches my perspective and fuels my passion for discovery.\n Have a nice day!\n\nBest Vaibhav"
   skills:
     - name: "Golang"
       category: "Language"
@@ -210,6 +210,7 @@ contact:
   linkedin: "https://linkedin.com/in/vaibhav.solanki"
   github: "https://github.com/VAIBHAV7500"
   #twitter: "https://twitter.com/vaibhavsolanki"
-  resume: "/resume.pdf" 
+  resume: "/personal/resume.pdf" 
   instagram: "https://www.instagram.com/vbhvsolanki"
-  formAccessKey: "9a9ccd91-f1c0-4e46-afc3-782974d579c3"
+  messagePlaceholder: "Write your message here..."
+  subjectPlaceholder: "What's this about?"
