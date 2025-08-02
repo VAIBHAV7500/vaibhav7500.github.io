@@ -11,88 +11,90 @@ personal:
   avatar: "/avatar.png"
   images:
     - src: "/personal/photo1.png"
-      caption: "Working on exciting projects at Postman"
+      caption: "Meet my personal therapist"
     - src: "/personal/photo2.png"
-      caption: "Speaking at developer conferences"
+      caption: "A gourdeous day I guess"
     - src: "/personal/photo3.png"
-      caption: "Collaborating with amazing teams"
+      caption: "Finding Nemo!"
 
 about:
   summary: "I'm a Senior Software Engineer with 5+ years of experience building scalable web applications and developer tools. Currently working at Postman, I've previously contributed to platforms like HackerRank and BrowserStack."
   description: "Hellooo 👋\n\nHappy to see you here!\nI am Vaibhav, a Software Engineer with a passion for building innovative products. My journey in technology is fueled by a love for problem-solving and creating impactful solutions. Beyond coding, I am a big fan of anime and manga, which inspire my creativity. I also love traveling and exploring new places, as each adventure enriches my perspective and fuels my passion for discovery.\n Have a nice day!\n\nBest Vaibhav"
   skills:
-    - name: "Golang"
-      category: "Language"
-      rating: 5
-    - name: "Python"
-      category: "Language"
-      rating: 5
-    - name: "JavaScript"
-      category: "Language"
-      rating: 5
-    - name: "TypeScript"
-      category: "Language"
-      rating: 4
-    - name: "SQL"
-      category: "Language"
-      rating: 4
-    - name: "React"
-      category: "Framework"
-      rating: 5
-    - name: "Node.js"
-      category: "Framework"
-      rating: 5
-    - name: "Express.js"
-      category: "Framework"
-      rating: 4
-    - name: "Django"
-      category: "Framework"
-      rating: 4
-    - name: "Next.js"
-      category: "Framework"
-      rating: 4
-    - name: "PostgreSQL"
-      category: "Datastore"
-      rating: 5
-    - name: "Redis"
-      category: "Datastore"
-      rating: 4
-    - name: "MongoDB"
-      category: "Datastore"
-      rating: 3
-    - name: "Kafka"
-      category: "Datastore"
-      rating: 4
-    - name: "Docker"
-      category: "Tools"
-      rating: 5
-    - name: "Kubernetes"
-      category: "Tools"
-      rating: 4
-    - name: "Git"
-      category: "Tools"
-      rating: 5
-    - name: "AWS"
-      category: "Tools"
-      rating: 4
-    - name: "GCP"
-      category: "Tools"
-      rating: 3
-    - name: "CI/CD"
-      category: "Tools"
-      rating: 4
-    - name: "System Design"
-      category: "Tools"
-      rating: 4
-    - name: "Observability"
-      category: "Tools"
-      rating: 4
-    - name: "Distributed Systems"
-      category: "Tools"
-      rating: 4
-    - name: "Event Driven"
-      category: "Tools"
-      rating: 4
+  - name: "Golang"
+    category: "Languages"
+    rating: 5
+  - name: "Python"
+    category: "Languages"
+    rating: 5
+  - name: "JavaScript"
+    category: "Languages"
+    rating: 5
+  - name: "TypeScript"
+    category: "Languages"
+    rating: 4
+  - name: "SQL"
+    category: "Languages"
+    rating: 5
+
+  - name: "React"
+    category: "Web Development"
+    rating: 3
+  - name: "Next.js"
+    category: "Web Development"
+    rating: 4
+  - name: "Node.js"
+    category: "Web Development"
+    rating: 5
+  - name: "Express.js"
+    category: "Web Development"
+    rating: 5
+
+  - name: "PostgreSQL"
+    category: "DB & Messaging"
+    rating: 5
+  - name: "Redis"
+    category: "DB & Messaging"
+    rating: 5
+  - name: "MongoDB"
+    category: "DB & Messaging"
+    rating: 4
+  - name: "Kafka"
+    category: "DB & Messaging"
+    rating: 5
+
+  - name: "Docker"
+    category: "DevOps"
+    rating: 5
+  - name: "Kubernetes"
+    category: "DevOps"
+    rating: 4
+  - name: "Git"
+    category: "DevOps"
+    rating: 5
+  - name: "CI/CD"
+    category: "DevOps"
+    rating: 4
+  - name: "Observability"
+    category: "DevOps"
+    rating: 5
+
+  - name: "AWS"
+    category: "DevOps"
+    rating: 5
+  - name: "GCP"
+    category: "DevOps"
+    rating: 3
+
+  - name: "System Design"
+    category: "Architecture"
+    rating: 5
+  - name: "Distributed Systems"
+    category: "Architecture"
+    rating: 5
+  - name: "Event Driven"
+    category: "Architecture"
+    rating: 4
 
 experience:
   - company: "Postman"
@@ -100,77 +102,63 @@ experience:
     duration: "2025 - Present"
     location: "Hyderabad, India"
     logo: "https://voyager.postman.com/logo/postman-logo-orange-stacked.svg"
-    description: "Leading development of Postman's core API platform and developer tools. Working on scalable microservices architecture and improving developer experience for millions of users."
+    description: "Built and maintained Postman’s Authentication System to ensure secure and reliable user access across the platform."
     achievements:
-      - "Led the redesign of Postman's API documentation system"
-      - "Improved API response times by 40% through optimization"
-      - "Mentored 3 junior developers and conducted technical interviews"
-    technologies: ["Node.js", "React", "TypeScript", "PostgreSQL", "Redis", "AWS"]
+      - "Building and maintaining Postman's Authentication System"
+    technologies: ["Javascript", "MySQL", "Redis", "AWS"]
 
   - company: "HackerRank"
     position: "Senior Software Engineer"
     duration: "2023 - 2025"
     location: "Remote"
     logo: "https://cdn.prod.website-files.com/66b6d7fd4d3e9cef94717176/670ee06a416476e6459b791a_LogoDark.svg"
-    description: "Developed and maintained HackerRank's assessment platform, focusing on code execution engine and candidate experience."
+    description: "Built scalable backend services, integrated SAML/SSO, and optimized database performance to improve reliability and user experience."
     achievements:
-      - "Built a scalable code execution engine supporting 50+ programming languages"
-      - "Reduced platform downtime by 60% through infrastructure improvements"
-      - "Implemented real-time collaboration features for coding interviews"
-    technologies: ["Python", "Django", "JavaScript", "Docker", "Kubernetes", "Redis"]
+      - "Developed a high-performance, scalable Authorization Service from the ground up, supporting 1M RPM and stress-tested to 60M RPM. Improved system security, stability, and resource allocation"
+      - "Integrated SAML and SSO flows into a newly developed authentication service, enhancing user accessibility and security compliance for enterprise clients."
+      - "Built a robust, fault-tolerant Orchestra Service capable of processing over 50k events per second, ensuring reliable event handling at scale."
+      - "Identified and resolved slow database queries in the monolithic application, reducing DB load by 50% and significantly enhancing response times and user experience"
+    technologies: ["Golang", "Zanzibar", "Temporal", "MySQL", "AWS", "Kubernetes", "Docker"]
 
   - company: "HackerRank"
     position: "Software Engineer 2"
     duration: "2022 - 2023"
     location: "Remote"
     logo: "https://cdn.prod.website-files.com/66b6d7fd4d3e9cef94717176/670ee06a416476e6459b791a_LogoDark.svg"
-    description: "Developed and maintained HackerRank's assessment platform, focusing on code execution engine and candidate experience."
+    description: "Automated infrastructure workflows to reduce deployment time, scale VM provisioning to 300k+ daily, and enhance environment reliability through in-VM monitoring and analytics."
     achievements:
-      - "Built a scalable code execution engine supporting 50+ programming languages"
-      - "Reduced platform downtime by 60% through infrastructure improvements"
-      - "Implemented real-time collaboration features for coding interviews"
-    technologies: ["Python", "Django", "JavaScript", "Docker", "Kubernetes", "Redis"]
+      - "Reduced machine image deployment time by 99.65%, from 1 day to 5 minutes, through end-to-end automation, significantly improving operational efficiency and resource allocation"
+      - "Developed an automated pre-demand scaling solution, enabling the daily launch of over 300k virtual machines without breaching cloud provider quotas, ensuring seamless test environment provisioning."
+      - "Built an in-VM system process to continuously monitor IDE and VM health, perform security checks, and export data for analytics, enhancing environment reliability and providing actionable insights."
+    technologies: ["Golang", "Hashicorp", "Kubernetes", "Docker", "Grafana", "Prometheus", "AWS", "GCP"]
 
   - company: "BrowserStack"
     position: "Software Engineer"
     duration: "2020 - 2021"
     location: "Mumbai, India"
     logo: "/companies/browserstack.svg"
-    description: "Worked on BrowserStack's automated testing platform, developing tools for cross-browser testing and mobile app testing."
+    description: "Led major system upgrades, optimized order workflows, automated sales processes with DocuSign, and migrated contract management to Salesforce for improved efficiency and consistency."
     achievements:
-      - "Developed automated testing frameworks for mobile applications"
-      - "Created browser automation tools used by 50,000+ developers"
-      - "Optimized test execution pipeline reducing time by 30%"
-    technologies: ["JavaScript", "Selenium", "Appium", "Node.js", "MongoDB"]
+      - "Led the upgrade of Ruby (from 2.2.x to 2.6.x) and Rails (from 4.x to 6.x) across the entire product, achieving an 8% improvement in memory management and a 10% boost in CPU performance, enhancing overall system efficiency."
+      - "Streamlined the order cancellation architecture and introduced functionality for managing future-dated orders, reducing operational workload by 20% and increasing workflow efficiency."
+      - "Improved quote creation and invoice generation by integrating DocuSign, automating the handling of sales orders, and accelerating the sales opportunity closure process."
+      - "Migrated contract lifecycle management to Salesforce, moving away from Google Drive-based storage, improving accessibility and process consistency."
+    technologies: ["Ruby", "Rails", "PostgreSQL", "AWS", "Docker", "Kubernetes", "GCP"]
 
 projects:
-  - name: "DevTools Hub"
-    description: "A comprehensive collection of developer tools and utilities built with React and Node.js. Features include API testing, code formatting, and database management tools."
-    image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/show_page.png"
-    github: "https://github.com/VAIBHAV7500/devtools-hub"
-    technologies: ["React", "Node.js", "TypeScript", "PostgreSQL"]
+  - name: "Anime Web App"
+    description: "A self designed anime web app with a modern UI and a clean design."
+    image: "/projects/loading_4.svg"
+    github: "https://github.com/VAIBHAV7500/anime_web_app"
+    technologies: ["React", "Node.js", "MySQL", "Redis", "Docker", "AWS"]
     featured: true
 
-  - name: "CodeCollab"
-    description: "Real-time collaborative code editor with syntax highlighting, version control integration, and team collaboration features."
-    image: "/projects/codecollab.png"
-    github: "https://github.com/VAIBHAV7500/codecollab"
-    technologies: ["React", "Socket.io", "Monaco Editor", "Express"]
+  - name: "Let's Binge"
+    description: "A Video Platform which allows user to watch videos in Sync and Chat. "
+    image: "/projects/letsbinge.svg"
+    github: "https://github.com/VAIBHAV7500/lets_binge"
+    technologies: ["React", "Firestore"]
     featured: true
-
-  - name: "API Analytics Dashboard"
-    description: "Comprehensive analytics platform for API monitoring, performance tracking, and developer insights."
-    image: "/projects/api-analytics.png"
-    github: "https://github.com/VAIBHAV7500/api-analytics"
-    technologies: ["Next.js", "D3.js", "PostgreSQL", "Redis"]
-    featured: false
-
-  - name: "TaskFlow"
-    description: "Project management tool with kanban boards, time tracking, and team collaboration features."
-    image: "/projects/taskflow.png"
-    github: "https://github.com/VAIBHAV7500/taskflow"
-    technologies: ["React", "Node.js", "MongoDB", "Socket.io"]
-    featured: false
 
 blogs:
   - title: "Building Scalable Microservices with Node.js"
