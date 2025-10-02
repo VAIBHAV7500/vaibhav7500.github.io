@@ -19,7 +19,7 @@ personal:
 
 about:
   summary: "I'm a Senior Software Engineer with 5+ years of experience building scalable web applications and developer tools. Currently working at Postman, I've previously contributed to platforms like HackerRank and BrowserStack."
-  description: "Hellooo 👋\n\nHappy to see you here!\nI am Vaibhav, a Software Engineer with a passion for building innovative products. My journey in technology is fueled by a love for problem-solving and creating impactful solutions. Beyond coding, I am a big fan of anime and manga, which inspire my creativity. I also love traveling and exploring new places, as each adventure enriches my perspective and fuels my passion for discovery.\n Have a nice day!\n\nBest Vaibhav"
+  description: "Hellooo 👋\n\nHappy to see you here!\nI am Vaibhav, a Software Engineer with a passion for building innovative products. My journey in technology is fueled by a love for problem-solving and creating impactful solutions. Beyond coding, I am a big fan of anime and manga, which inspire my creativity. I also love traveling and exploring new places, as each adventure enriches my perspective and fuels my passion for discovery.\n Have a nice day!\n\nBest\nVaibhav"
   skills:
   - name: "Golang"
     category: "Languages"
@@ -35,19 +35,6 @@ about:
     rating: 4
   - name: "SQL"
     category: "Languages"
-    rating: 5
-
-  - name: "React"
-    category: "Web Development"
-    rating: 3
-  - name: "Next.js"
-    category: "Web Development"
-    rating: 4
-  - name: "Node.js"
-    category: "Web Development"
-    rating: 5
-  - name: "Express.js"
-    category: "Web Development"
     rating: 5
 
   - name: "PostgreSQL"
@@ -148,49 +135,55 @@ experience:
 projects:
   - name: "Anime Web App"
     description: "A self designed anime web app with a modern UI and a clean design."
-    image: "/projects/loading_4.svg"
+    image: "/projects/animeapp.png"
     github: "https://github.com/VAIBHAV7500/anime_web_app"
     technologies: ["React", "Node.js", "MySQL", "Redis", "Docker", "AWS"]
     featured: true
 
   - name: "Let's Binge"
-    description: "A Video Platform which allows user to watch videos in Sync and Chat. "
-    image: "/projects/letsbinge.svg"
+    description: "A Video Room which allows multiple users to watch videos in Sync and Chat. "
+    image: "/projects/letsbinge.png"
     github: "https://github.com/VAIBHAV7500/lets_binge"
     technologies: ["React", "Firestore"]
     featured: true
+  
+  - name: "Spend Checker"
+    description: "An AI based tool to categorize your spending and get insights"
+    image: "/projects/spend_checker.png"
+    technologies: ["AppScript"]
+    featured: true
 
-blogs:
-  - title: "Building Scalable Microservices with Node.js"
-    excerpt: "Learn how to design and implement scalable microservices architecture using Node.js, Docker, and Kubernetes."
-    date: "2024-01-15"
-    readTime: "8 min read"
-    tags: ["Node.js", "Microservices", "Architecture"]
-    url: "https://blog.vaibhavsolanki.dev/scalable-microservices-nodejs"
-    image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/cover.png"
+# blogs:
+#   - title: "Building Scalable Microservices with Node.js"
+#     excerpt: "Learn how to design and implement scalable microservices architecture using Node.js, Docker, and Kubernetes."
+#     date: "2024-01-15"
+#     readTime: "8 min read"
+#     tags: ["Node.js", "Microservices", "Architecture"]
+#     url: "https://blog.vaibhavsolanki.dev/scalable-microservices-nodejs"
+#     image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/cover.png"
 
-  - title: "Optimizing React Performance: A Deep Dive"
-    excerpt: "Advanced techniques for optimizing React applications, including code splitting, memoization, and bundle optimization."
-    date: "2023-12-20"
-    readTime: "12 min read"
-    tags: ["React", "Performance", "JavaScript"]
-    url: "https://blog.vaibhavsolanki.dev/react-performance-optimization"
-    image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/show_page.png"
+#   - title: "Optimizing React Performance: A Deep Dive"
+#     excerpt: "Advanced techniques for optimizing React applications, including code splitting, memoization, and bundle optimization."
+#     date: "2023-12-20"
+#     readTime: "12 min read"
+#     tags: ["React", "Performance", "JavaScript"]
+#     url: "https://blog.vaibhavsolanki.dev/react-performance-optimization"
+#     image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/show_page.png"
 
-  - title: "API Design Best Practices for Developer Experience"
-    excerpt: "Comprehensive guide to designing APIs that developers love to use, covering REST, GraphQL, and documentation."
-    date: "2023-11-10"
-    readTime: "10 min read"
-    tags: ["API Design", "GraphQL", "Developer Experience"]
-    url: "https://blog.vaibhavsolanki.dev/api-design-best-practices"
-    image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/show_page.png"
+#   - title: "API Design Best Practices for Developer Experience"
+#     excerpt: "Comprehensive guide to designing APIs that developers love to use, covering REST, GraphQL, and documentation."
+#     date: "2023-11-10"
+#     readTime: "10 min read"
+#     tags: ["API Design", "GraphQL", "Developer Experience"]
+#     url: "https://blog.vaibhavsolanki.dev/api-design-best-practices"
+#     image: "https://raw.githubusercontent.com/VAIBHAV7500/anime_web_app/master/images/show_page.png"
 
-  - title: "The Future of Developer Tools"
-    excerpt: "Exploring emerging trends in developer tools and how AI is transforming the development workflow."
-    date: "2023-10-05"
-    readTime: "6 min read"
-    tags: ["Developer Tools", "AI", "Future"]
-    url: "https://blog.vaibhavsolanki.dev/future-developer-tools"
+#   - title: "The Future of Developer Tools"
+#     excerpt: "Exploring emerging trends in developer tools and how AI is transforming the development workflow."
+#     date: "2023-10-05"
+#     readTime: "6 min read"
+#     tags: ["Developer Tools", "AI", "Future"]
+#     url: "https://blog.vaibhavsolanki.dev/future-developer-tools"
     #image: "/blogs/future-dev-tools.png"
 
 contact:
